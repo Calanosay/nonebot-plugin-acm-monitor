@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "nonebot-plugin-acm-monitor"
+version = "0.1.0"
+description = "ACM选手专用内卷神器，名单内有人做题全群通报，支持洛谷和Codeforces!"
+authors = ["lcy <863109569@qq.com>"]
+readme = "README.md"
+packages = [{include = "nonebot-plugin-acm-monitor"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+nonebot2 = "^2.0.0rc4"
+nonebot-adapter-onebot = "^2.2.3"
+asyncio = "^3.4.3"
+httpx = "^0.24.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
