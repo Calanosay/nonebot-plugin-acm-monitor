@@ -1,4 +1,4 @@
-ACM选手的内卷神器，卷王名单内有人做题立刻全群同报，支持洛谷和Codeforces平台！
+ACM选手的内卷神器，卷王名单内有人做题立刻全群通报，支持洛谷和Codeforces平台！
 ## 使用前的准备
 * 请在bot根目录新建三个文件夹,"data/luogu","data/codeforces","data/nickname",并在前两个文件夹中都新建"group.json","names.json","lastvp.json","last.json",在第三个文件夹中新建"nickname.json"。
 * 在.env文件中新添配置luogu_client_id,luogu_uid,luogu.login_referer,具体数值需自己登录洛谷后按F12-network中获取,Codeforces平台则无需配置
